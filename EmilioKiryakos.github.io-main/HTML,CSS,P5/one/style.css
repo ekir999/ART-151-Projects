@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.sketchlink1 {
+  position: static;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  top: 100px;
+  left: 150px;
+  text-decoration: none;
+  color: blue;
+  font-size: 48px;
+}
+
+.sketchlink2 {
+  position: static;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  top: 100px;
+  left: 150px;
+  text-decoration: none;
+  color: blue;
+  font-size: 30px;
+}
+
+.sketchlink3 {
+  position: static;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  top: 100px;
+  left: 150px;
+  text-decoration: none;
+  color: blue;
+  font-size: 100px;
+}
+
+.sketchlink1:hover{color:yellow}
+.sketchlink2:hover{color:red}
+.sketchlink3:hover{color:green}

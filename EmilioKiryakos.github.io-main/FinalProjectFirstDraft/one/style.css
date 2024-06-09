@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.next {
+  position: absolute;
+  left: 335px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.headertext {
+  top: 10px;
+  position: absolute;
+  left: 165px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+}
+
+.pagetext1 {
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+  font-size: 10px;
+}
+
+.pagetext2 {
+  width: 180px;
+  padding: 10px;
+  margin: 5px;
+  position: absolute;
+  top: 215px;
+  left: -1px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+  font-size: 10px;
+}
+
+.next:hover{color:red}
